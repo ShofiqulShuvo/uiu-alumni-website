@@ -1,0 +1,174 @@
+:root {
+  --font-open-sans: "Open Sans", sans-serif;
+  --white-color: #fff;
+  --black-color: #000;
+  --uiu-color: #f68b1f;
+  --dark-color: #282828;
+  --second-color: #0090d7;
+}
+
+body {
+  background: var(--white-color);
+  font-family: var(--font-open-sans);
+}
+
+/* background color */
+.bg-dark {
+  background-color: var(--dark-color);
+}
+/* background color end */
+
+/* utitlity */
+.font-open-sans {
+  font-family: var(--font-open-sans);
+}
+/* utitlity end */
+
+/* navbar */
+nav {
+    padding: 0 !important;
+}
+
+.top-nav {
+    width: 100%;
+    font-size: 0.85rem;
+    border-bottom: 3px solid var(--uiu-color);
+}
+
+.top-nav .nav-item .nav-link {
+    color: var(--white-color);
+}
+
+.navbar {
+    background-color: var(--second-color) !important ;
+}
+
+.navbar .navbar-toggler {
+  color: var(--white-color);
+  border: none;
+  box-shadow: unset;
+  outline: none;
+}
+
+.navbar .navbar-toggler:hover {
+    transform: scale(1.1);
+}
+
+.navbar .navbar-brand {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.navbar .navbar-brand .nav-image {
+  height: 2.8rem;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.navbar .nav-item .dropdown-menu {
+  background: var(--second-color);
+  border: none;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item {
+  color: var(--white-color);
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+  background: var(--uiu-color);
+  color: var(--white-color);
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.search-form {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form input {
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form input:focus, .search-form input:focus-visible, .search-form input:focus-within {
+    outline: none;
+}
+
+.search-form .search-btn {
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    color: var(--white-color);
+    background-color: var(--uiu-color);
+    border-color: var(--uiu-color);
+    border: none;
+    border-radius:0 5px 5px 0;
+}
+
+/* navbar end */
+
+
+/* footer start */
+footer .uiu-logo {
+    width: 100%;
+    max-width: 150px;
+}
+
+footer .uiu-logo img {
+    width: 100%;
+}
+
+footer .social-media-links {
+    padding-left: 0;
+  margin-top: 1rem;
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+footer .social-media-links .single-social-link {
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--uiu-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: var(--uiu-color);
+    padding: 0;
+}
+
+footer .social-media-links .single-social-link i {
+  color: var(--white-color);
+}
+
+footer .footer-menu .footer-menu-title {
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+
+footer .footer-menu a {
+  font-size: .9rem;
+}
+
+footer .footer-menu a:hover {
+  color: var(--uiu-color) !important;
+}
+
+footer a {
+  text-decoration: none;
+}
+/* footer start end */
