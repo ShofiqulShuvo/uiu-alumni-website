@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | DCCSA</title>
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,8 +38,6 @@
     <!-- custom css  -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- custom css end -->
-
-    <title>Events | DCCSA</title>
   </head>
   <body>
     <!-- navbar -->
@@ -71,7 +70,9 @@
               <button class="search-btn">Search</button>
             </form>
 
-            <a href="#" class="btn btn-primary btn-sm px-3">Login</a>
+            <a href="./single-event.html" class="btn btn-primary btn-sm px-3"
+              >Login</a
+            >
           </div>
         </div>
       </div>
@@ -146,182 +147,183 @@
 
     <!-- main content-->
     <main>
+      <!-- page banner -->
+      <section class="page-banner pt-2 pb-3 py-md-5">
+        <div class="container">
+          <!-- breadcrumb -->
+          <nav class="mt-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Contact
+              </li>
+            </ol>
+          </nav>
 
-      <div class="container mt-5">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item"><a href="./archive-events.html">Events</a></li>
-          </ol>
-        </nav>
-      </div>
-
-      <!-- events  -->
-      <section id="page-single-event" class="pb-3">
-        <div class="container py-3">
-          <div class="event-header">
-            <!-- event title -->
-            <h4 class="event-title">
-              Seminar on Success Σeet: Academia to Industry
-            </h4>
-
-            <!-- event publish date -->
-            <h6 class="publish-date">
-              <span>
-                <strong>Published on: </strong>
-              </span>
-              <span>Jun 25, 2022</span>
-            </h6>
+          <!-- banner content -->
+          <div class="content">
+            <h3 class="page-title">Contact</h3>
+            <p class="page-sub-title">
+              United City, Madani Avenue, Badda, Dhaka, Dhaka 1212, Bangladesh
+            </p>
           </div>
+        </div>
+      </section>
 
-          <!-- event info -->
-          <div class="event-info px-4 py-4">
-            <!-- event venue  -->
-            <h6 class="venue">
-              <span>
-                <strong>Venue: </strong>
-              </span>
-              <span>Smart Room-126</span>
-            </h6>
+      <!-- contact us -->
+      <section id="contact-us" class="py-5">
+        <div class="container">
+          <div class="row g-5">
 
-            <!-- event date  -->
-            <h6 class="event-date">
-              <span>
-                <strong>Event Dates: </strong>
-              </span>
-              <span> Jun 30, 2022</span>
-            </h6>
-          </div>
+            <!-- contact form -->
+            <div class="col-12 col-lg-7">
+              <h5 class="mb-4 fw-bold">
+                Please use the following form to contact
+              </h5>
 
-          <div class="event-body">
-            <div class="featured-image mb-4">
-              <img src="./img/Mars-Rover-Digital-Banner-UIU-2.jpg" alt="" />
+              <form class="contact-us-form px-4 py-5">
+                <!-- name -->
+                <div class="mb-3">
+                  <label for="full-name" class="form-label"
+                    >Full Name<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="full-name"
+                    aria-describedby="fullName"
+                    required
+                  />
+                </div>
+
+                <!-- email -->
+                <div class="mb-3">
+                  <label for="contact-email" class="form-label"
+                    >Email<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="contact-email"
+                    required
+                  />
+                </div>
+
+                <!-- Query/Question -->
+                <div class="mb-3">
+                  <label for="query-question" class="form-label"
+                    >Query/Question<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="query-question"
+                    required
+                  />
+                </div>
+
+                <!-- Brief description of your question -->
+                <div class="mb-4">
+                  <label for="brief-question" class="form-label"
+                    >Brief description of your question<span class="text-danger"
+                      >*</span
+                    ></label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="brief-question"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-brand w-100">
+                  Send Message
+                </button>
+              </form>
             </div>
 
-            <div class="event-details">
-              <p>
-                We are excited to invite you to&nbsp;<strong
-                  >"Success Σeet: Academia to Industry"</strong
-                >, a seminar organized by the&nbsp;<em>UIU Robotics Club</em
-                >&nbsp;and led by&nbsp;<strong><em>Mr. Furkan Alahi</em></strong
-                >, our esteemed CSE alumnus. Mr. Furkan is currently working as
-                a Software Engineer at Delinian in London, UK.<br />This event
-                will provide essential guidance on navigating the competitive
-                software and robotics job market, including insights on trends,
-                resume tips, interviews, soft skills, and entering the global
-                job market.<br /><strong><br />Event Details:</strong>
-              </p>
-              <p><strong>Date:</strong>&nbsp;23rd June 2024</p>
-              <p><strong>Time:</strong>&nbsp;2:00 PM Onwards</p>
-              <p><strong>Venue:</strong>&nbsp;Room 126, Smart Room</p>
-              <p>
-                <strong>Registration Link:&nbsp;</strong
-                ><a
-                  href="https://forms.gle/feDSDwqa4uyMKCtW9"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  ><strong>Success Σeet Form Link</strong></a
-                >
-              </p>
-              <p>
-                <strong
-                  >Event Link:&nbsp;<a
-                    href="https://www.facebook.com/events/982420050478576/?active_tab=discussion"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    >Facebook Event Link<br /></a></strong
-                ><br />Please bring a soft copy of your CV (without your name)
-                for personalized feedback on how to improve it. Your presence
-                will greatly contribute to the success of the seminar. We look
-                forward to seeing you there!!
-              </p>
+            <!-- important contact -->
+            <div class="important-contact col-12 col-lg-5">
+              <h5 class="mb-4 fw-bold">Important Contact</h5>
+
+              <!-- For Degree Reqirements Enquiry -->
+              <div class="card mb-4">
+                <h5 class="card-header">For Degree Reqirements Enquiry</h5>
+                <div class="card-body">
+
+                    <!-- address -->
+                  <p class="card-text mb-0">
+                    Office of the Controller of Examinations
+                    <br />
+                    United City, Madani Avenue, Badda, Dhaka - 1212
+                  </p>
+
+                  <!-- other contact info -->
+                  <div class="other-contact-info mt-2">
+                      <p class="card-text mb-0">
+                        <span  class="field-name">Email:</span>
+                        <a href="mailto:examcon@uiu.ac.bd">examcon@uiu.ac.bd</a>
+                      </p>
+                      <p class="card-text mb-0">
+                        <span  class="field-name">Telephone:</span>
+                        <a href="mailto:examcon@uiu.ac.bd">09604 UIU UIU (848 848)</a>
+                      </p>
+                      <p class="card-text mb-0">
+                        <span  class="field-name">Ext::</span>
+                        <span>1202, 1203, 1204, 1205</span>
+                      </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- For Technical Support -->
+              <div class="card mb-4">
+                <h5 class="card-header">For Technical Support</h5>
+                <div class="card-body">
+
+                    <!-- address -->
+                  <p class="card-text mb-0">
+                    Center for IT Services
+                    <br />
+                    United City, Madani Avenue, Badda, Dhaka - 1212
+                  </p>
+
+                  <!-- other contact info -->
+                  <div class="other-contact-info mt-2">
+                      <p class="card-text mb-0">
+                        <span  class="field-name">Email:</span>
+                        <a href="mailto:swteam@uiu.ac.bd">swteam@uiu.ac.bd</a>
+                      </p>
+                      <p class="card-text mb-0">
+                        <span  class="field-name">Telephone:</span>
+                        <a href="mailto:examcon@uiu.ac.bd">09604 UIU UIU (848 848)</a>
+                      </p>
+                      <p class="card-text mb-0">
+                        <span  class="field-name">Ext::</span>
+                        <span>
+                            1416, 1417
+                        </span>
+                      </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- more events  -->
-      <section id="more-event" class="pb-5">
-        <div class="container py-3">
-          <h3 class="fw-bold mb-4">More Events</h3>
-          <div class="row g-4">
-            <!-- single events -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <a href="./single-event.html" class="single-event">
-                <div class="event-image">
-                  <img src="./img/Mars-Rover-Digital-Banner-UIU-2.jpg" alt="" />
-                </div>
-                <div class="event-details px-3 pt-3 pb-4">
-                  <p class="event-date mb-1">21st March, 2023</p>
-
-                  <h5 class="event-title">
-                    UIU Mars Rover won 1st Place in Asia for the third time in a
-                    row at University Rover Challenge 2024
-                  </h5>
-
-                  <div class="venue">
-                    <span><strong>Venue:</strong></span>
-                    <span
-                      >Smart Room, University Innovation Hub, IRIIC (10th
-                      Floor)</span
-                    >
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- single events -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <a href="./single-event.html" class="single-event">
-                <div class="event-image">
-                  <img src="./img/Mars-Rover-Digital-Banner-UIU-2.jpg" alt="" />
-                </div>
-                <div class="event-details px-3 pt-3 pb-4">
-                  <p class="event-date mb-1">21st March, 2023</p>
-
-                  <h5 class="event-title">
-                    UIU Mars Rover won 1st Place in Asia for the third time in a
-                    row at University Rover Challenge 2024
-                  </h5>
-
-                  <div class="venue">
-                    <span><strong>Venue:</strong></span>
-                    <span
-                      >Smart Room, University Innovation Hub, IRIIC (10th
-                      Floor)</span
-                    >
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- single events -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <a href="./single-event.html" class="single-event">
-                <div class="event-image">
-                  <img src="./img/Mars-Rover-Digital-Banner-UIU-2.jpg" alt="" />
-                </div>
-                <div class="event-details px-3 pt-3 pb-4">
-                  <p class="event-date mb-1">21st March, 2023</p>
-
-                  <h5 class="event-title">
-                    UIU Mars Rover won 1st Place in Asia for the third time in a
-                    row at University Rover Challenge 2024
-                  </h5>
-
-                  <div class="venue">
-                    <span><strong>Venue:</strong></span>
-                    <span
-                      >Smart Room, University Innovation Hub, IRIIC (10th
-                      Floor)</span
-                    >
-                  </div>
-                </div>
-              </a>
-            </div>
-
-          </div>
-        </div>
+      <!-- map -->
+      <section class="uiu-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.582198117619!2d90.44713507592859!3d23.797887786950426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7d8042caf2d%3A0x686fa3e360361ddf!2sUnited%20International%20University!5e0!3m2!1sen!2sbd!4v1700484276218!5m2!1sen!2sbd"
+          width="100%"
+          height="320"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <!-- main content end-->
