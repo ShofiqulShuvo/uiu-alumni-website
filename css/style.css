@@ -1389,10 +1389,13 @@ footer a {
 
 #timeline-section .timeline li .title {
   position: relative;
-  padding-inline:1.5rem;overflow: hidden;
+  padding-inline:1.5rem;
+  overflow: hidden;
   -webkit-padding-before: 1.5rem;
-  padding-block-start:1.5rem;-webkit-padding-after: 1rem;
-  padding-block-end:1rem;font-weight: 500
+  padding-block-start:1.5rem;
+  -webkit-padding-after: 1rem;
+  padding-block-end:1rem;
+  font-weight: 500
 }
 
 #timeline-section .timeline li .title::before {
@@ -1401,8 +1404,10 @@ footer a {
 
 #timeline-section .timeline li .descr {
   position: relative;
-  padding-inline:1.5rem;-webkit-padding-after: 1.5rem;
-  padding-block-end:1.5rem;font-weight: 300
+  padding-inline:1.5rem;
+  -webkit-padding-after: 1.5rem;
+  padding-block-end:1.5rem;
+  font-weight: 300
 }
 
 #timeline-section .timeline li .descr::before {
@@ -1501,5 +1506,122 @@ footer a {
 /***************************
 ****************************
 ******* wings of alumni page end ****** 
+***************************
+***************************/
+
+
+
+
+/***************************
+****************************
+******* collaboration page start ****** 
+***************************
+***************************/
+#collaboration-list .single-collaboration {
+  background: var(--white-color);
+  display: block;
+  text-decoration: none;
+  color: var(--black-color);
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#collaboration-list .single-collaboration .collaboration-img {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: .5rem;
+}
+
+#collaboration-list .single-collaboration .collaboration-img img {
+  width: 100%;
+  height: auto;
+}
+
+#collaboration-list .single-collaboration .collaboration-details .collaboration-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#collaboration-list .single-collaboration:hover .collaboration-details .collaboration-title {
+  color: blue;
+}
+/***************************
+****************************
+******* collaboration page end ****** 
+***************************
+***************************/
+
+
+
+/***************************
+****************************
+******* gallery archive page start ****** 
+***************************
+***************************/
+
+#gallery-archive .gallery-card {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#gallery-archive .gallery-card .img-container {
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+#gallery-archive .gallery-card .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 2s ease;
+}
+
+#gallery-archive .gallery-card:hover .img-container img {
+  transform: scale(1.05);
+}
+
+/***************************
+****************************
+******* gallery archive page end ****** 
+***************************
+***************************/
+
+
+
+
+
+
+
+/***************************
+****************************
+******* gallery single page start ****** 
+***************************
+***************************/
+.gallery-item {
+  margin-bottom: 30px;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/***************************
+****************************
+******* gallery single page end ****** 
 ***************************
 ***************************/

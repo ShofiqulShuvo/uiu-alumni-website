@@ -9,7 +9,11 @@ document.getElementById("close-search")?.addEventListener("click", () => {
 // search bar end
 
 // all slider start
-if (Swiper) {
+
+if (typeof Swiper !== 'undefined') {
+  
+  
+  // hero slider
   var swiper = new Swiper(".heroSlider", {
     slidesPerView: 1,
     loop: true,
@@ -18,5 +22,32 @@ if (Swiper) {
       prevEl: ".heroSlider-prev",
     },
   });
+
+
 }
-// all slider start end
+// all slider  end
+
+
+
+
+// masonry image grid
+// Masonry and GLightbox initialization
+document.addEventListener("DOMContentLoaded", () => {
+  const masonryGrid = document.querySelector(".masonry-image-gallery");
+  const galleryItems = document.querySelectorAll(".gallery-item");
+
+  if (masonryGrid && galleryItems.length > 0) {
+    const masonry = new Masonry(masonryGrid, {
+      itemSelector: ".gallery-item",
+      percentPosition: true,
+    });
+
+    const lightbox = GLightbox({
+      selector: ".glightbox",
+    });
+  } 
+});
+
+// masonry image grid
+
+
