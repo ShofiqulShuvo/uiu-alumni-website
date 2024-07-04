@@ -1478,6 +1478,10 @@ footer a {
 ***************************/
 
 .single-wing {
+  display: block;
+  text-decoration: none;
+  color: var(--black-color);
+  cursor: pointer;
   background: var(--white-color);
   height: 100%;
   overflow: hidden;
@@ -1499,13 +1503,69 @@ footer a {
 }
 
 .single-wing .wing-content .wing-title {
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 /***************************
 ****************************
 ******* wings of alumni page end ****** 
+***************************
+***************************/
+
+
+
+/***************************
+****************************
+******* single wings of alumni page start ****** 
+***************************
+***************************/
+
+#single-wings-of-alumni .single-member {
+  height: 100%;
+  width: 100%;
+}
+
+#single-wings-of-alumni .single-member .member-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+#single-wings-of-alumni .single-member .member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#single-wings-of-alumni .single-member .links {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+#single-wings-of-alumni .single-member .links a {
+  background: var(--uiu-color);
+  padding: .9rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+#single-wings-of-alumni .single-member .links a:hover {
+  background: var(--dark-color);
+}
+
+/***************************
+****************************
+******* single wings of alumni page end ****** 
 ***************************
 ***************************/
 
