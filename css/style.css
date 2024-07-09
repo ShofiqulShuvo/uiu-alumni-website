@@ -114,6 +114,21 @@ p {
   text-decoration: none;
 }
 
+.pagination .page-link {
+  color: var(--black-color);
+  border-color: var(--uiu-color);
+}
+
+.pagination .page-item.active  .page-link {
+  border-color: var(--uiu-color);
+  background-color: var(--uiu-color);
+  color: var(--white-color);
+}
+
+.pagination a:focus, .pagination a:focus-visible {
+  box-shadow: none;
+}
+
 /* utitlity end */
 
 /* navbar */
